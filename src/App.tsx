@@ -1,10 +1,9 @@
-import React from "react";
-import { Button } from "@/components/ui/button";
+import FormDynamic from "./components/ui/form/FormDynamic";
 
 const App = () => {
   return (
-    <div>
-      <Button>Click me</Button>
+    <div className="flex items-center justify-center w-full h-screen ">
+      <FormDynamic />
     </div>
   );
 };
